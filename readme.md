@@ -11,6 +11,6 @@ hnmt stop   		->   Hide timers
 
 hnmt show   		->   Show timers
 
-hnmt alert   		->   Toggles alerts 30 sec prior to each window (default on)")
+hnmt alert   		->   Toggles alerts 30 sec prior to each window (default on)
 
 hnmt help			-> 	 Shows this help
