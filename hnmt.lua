@@ -131,7 +131,7 @@ windower.register_event('addon command', function(command, ...)
             windower.add_to_chat(207, "Invalid input. Use: ht set <HH:MM:SS>")
         end
 	elseif command == 'help' then
-        windower.add_to_chat(207, "Usage:\nhnmt set HH:MM:SS   ->   Set window open time. Needs to be entered in 24h timeformat.\nhnmt stop   ->   Hide timers\nhnmt show   ->   Show timers\nhnmt alert   ->   Toggles alerts 30 sec prior to each window (default on)")
+        windower.add_to_chat(207, "Usage:\nhnmt set HH:MM:SS   ->   Set window open time. Needs to be entered in 24h timeformat.\nhnmt hide   ->   Hide timers\nhnmt show   ->   Show timers\nhnmt alert   ->   Toggles alerts 30 sec prior to each window (default on)")
     elseif command == 'alert' then
 		
         if not use_alert then

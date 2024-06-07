@@ -7,7 +7,7 @@ Windower 4.0 addon to keep track of HNM spawns with 10 min windows.
 
 hnmt set HH:MM:SS   ->   Set window open time. Needs to be entered in 24h timeformat.
 
-hnmt stop   		->   Hide timers
+hnmt hide   		->   Hide timers
 
 hnmt show   		->   Show timers
 
